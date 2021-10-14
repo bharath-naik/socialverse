@@ -1,0 +1,15 @@
+function login(){
+  console.log('there for it is inside the /opt/pleroma/priv/static/static/js/myjavascript');
+const queryString = window.location.search;
+
+const urlParams = new URLSearchParams(queryString);
+if(urlParams.has('username') && urlParams.has('password')) {
+  const username = urlParams.get('username');
+  const password = urlParams.get('password');
+  document.getElementById("username").value=username
+documet.getElementBy Id('username').	dispatchEvent (new Event'change'));
+  document.getElementById("password").dispatchEvent (new Event'change'));;
+  document.querySelectorAll("button[type=submit]")[0].click();
+}
+}
+setTimeout(function(){ login() }, 5000);

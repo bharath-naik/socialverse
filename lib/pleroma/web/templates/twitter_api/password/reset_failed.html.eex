@@ -1,0 +1,2 @@
+<h2>Password reset failed</h2>
+<h3><a href="<%= Pleroma.Web.Endpoint.url() %>">Homepage</a></h3>
