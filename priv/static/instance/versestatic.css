@@ -27,13 +27,7 @@
 .timeline-body .panel-body {
     background-color :white
 }
-.faint-link {
-/*     style fo the time that is present at the top right of post */
-    color: rgb(12 12 12);
-    font-weight :bold;
-    background-color :wheat;
-    border-radius :5px
-}
+
 /* post creation css style form  */
 .user-panel {
     border-style :solid;
@@ -184,3 +178,4 @@ font-weight: bolder;
     border-style:solid;
     border-width:0.2em
 }
+
