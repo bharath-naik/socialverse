@@ -763,7 +763,7 @@ config :pleroma, :web_cache_ttl,
 
 config :pleroma, :modules, runtime_dir: "instance/modules"
 
-config :pleroma, configurable_from_database: false
+config :pleroma, configurable_from_database: true
 
 config :pleroma, Pleroma.Repo,
   parameters: [gin_fuzzy_search_limit: "500"],

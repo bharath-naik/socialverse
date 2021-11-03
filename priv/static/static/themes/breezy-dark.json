@@ -21,7 +21,7 @@
           "y": "0",
           "blur": "0",
           "spread": "1",
-          "color": "--btn,900",
+          "color": "--btn,1900",
           "alpha": "0.15",
           "inset": true
         },

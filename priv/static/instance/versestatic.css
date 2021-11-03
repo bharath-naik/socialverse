@@ -1,0 +1,186 @@
+.main{
+  background-color : #ffffff
+}
+
+#content {
+/*     this is for full background-color of entre container */
+    background-color :whitesmoke;
+}
+.Status.conversation-status.status-fadein.panel-body {
+    border-style:solid;
+    border-width :1.05px;
+    border-radius : 10px;
+    margin :5px 2px;
+    color :black;
+    border-color:grey;
+}
+.status-container{
+/* this class says how a post should be visible in time line     */
+    font-size : 17px;
+    line-height : 2em;
+} 
+.status-actions {
+    margin :5px;
+    padding: 10px;
+    border-radius : 10px;
+ }
+.timeline-body .panel-body {
+    background-color :white
+}
+.faint-link {
+/*     style fo the time that is present at the top right of post */
+    color: rgb(12 12 12);
+    font-weight :bold;
+    background-color :wheat;
+    border-radius :5px
+}
+/* post creation css style form  */
+.user-panel {
+    border-style :solid;
+    border-width : 1.7px;
+    border-color :deepskyblue;
+    border-radius: 5px 20px 5px;
+}
+.form-post-subject {
+    margin-bottom : 15px;
+    padding : 15px;
+   border-radius :10px 10px 0px 0px ;
+   border-style :inset;
+   border-width :1.9px;
+   border-bottom-color : #2196f3;
+}
+.form-post-body {
+    padding : 10px;
+   # box-shadow: 10px 5px 10px #c9adad;
+   border-radius :10px 10px 0px 0px ;
+   border-style :inset;
+   border-width :1.9px;
+   border-bottom-color : #2196f3;
+}
+#post-content-type {
+    border-radius: 10px;
+}
+.visibility-tray {
+   padding-top: 25px;
+}
+.form-bottom {
+    border-style :groove;
+    border-width :1.9px;
+    border-radius : 10px
+}
+/*  time line panel style*/
+.timeline-heading.panel-heading {
+    background-color :rgb(2,0,36);
+    box-shadow: 0 10px 10px -10px #151616;
+}
+.panel-heading .faint {
+    background-color: transparent;
+    color: hsla(240,1%,73%,.5);
+    color: white;
+}
+.timeline-title {
+/*  home, public, known timeline    */
+    font-size :1.2em;
+    color :white
+}
+.title {
+    font-size :1.2em;
+    color :white
+}
+.panel.panel-default {
+     border-radius :10px;
+}
+.main {
+    border-radius: 10px;
+    border-width :2.05px;
+    border-color :deepskyblue
+}
+.tabs {
+    border-style:solid;
+    border-width :1.05px;
+    border-color :deepskyblue;
+    border-radius :10px
+}
+.btn.button-default{
+    border-radius : 10px;
+    color :deepskyblue;    
+}
+a.menu-item {
+   color:white;
+}
+.NavPanel {
+/* all navgation timeline links     */
+    border-style:ridge;
+    border-radius : 10px;
+    border-width :1.05px;
+    border-color :rgb(2,0,36);
+    margin :10px;
+    font-size :1.2em;
+    color :white
+}
+.chat-view {
+    border-style:ridge;
+    border-radius : 10px;
+    border-width :1.05px;
+    border-color :rgb(2,0,36)
+}
+/* about page */
+.mrf-section {
+    padding :10px;
+    line-height : 1.7;
+    font-size : 1.2em;
+    border-radius : 10px;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+.features-panel {
+/* hidden the features panel from the ui      */
+    display : none;
+}
+.tos-content {
+    /* hidden the terms of service page from the ui      */
+    display:none;
+}
+.staff-group {
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,9,121,1) 0%, rgba(0,212,255,1) 100%);
+border-radius : 0px 0px 10px  10px;
+color :white;
+font-size: 1.2em;
+font-weight: bolder;
+}
+/*  interactions*/
+.notification{
+    background-color :white;
+    color :black;
+    border-radius :10px;
+    margin:5px
+}
+/*  ScopeSelector*/
+.ScopeSelector{
+    padding :5px;
+}
+/*scroll bar  */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+/* mobile create status */
+.button-default.new-status-button {
+    background-color:blue;
+    border-style:solid;
+    border-width:0.2em
+}

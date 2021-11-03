@@ -3,11 +3,11 @@
 }
 
 :root {
-  --brand-color: #d8a070;
-  --background-color: #121a24;
-  --foreground-color: #182230;
-  --primary-text-color: #b9b9ba;
-  --muted-text-color: #89898a;
+  --brand-color: #555358;
+  --background-color: #5F6062;
+  --foreground-color: #7B7263;
+  --primary-text-color: #C6CA53;
+  --muted-text-color: #C9DCB3;
 }
 
 body {
@@ -49,7 +49,7 @@ body {
   background-color: var(--foreground-color);
   border-radius: 4px;
   overflow: hidden;
-  margin: 35px auto;
+  margin: 135px auto;
   box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
